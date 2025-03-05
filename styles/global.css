@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+*{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    
+    margin: 0;
+    padding: 0;
+
+    color: var(--neutrals-grey-13);
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+p{
+    margin: 0;
+}
+
+/* Tipografia */
+
+/* HEADINGS */
+
+.h1-regular, .h2-regular, .h3-regular, .h4-regular, .h5-regular, .h6-regular, .h1-smbold, .h2-smbold, .h3-smbold, .h4-smbold, .h5-smbold, .h6-smbold, .text-regular, .text-small-regular, .caption-regular, .text-smbold, .text-small-smbold, .caption-smbold{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.h1-regular, .h2-regular, .h3-regular, .h4-regular, .h5-regular, .h6-regular, .text-regular, .text-small-regular, .caption-regular{
+    font-weight: 400;
+}
+
+.h1-smbold, .h2-smbold, .h3-smbold, .h4-smbold, .h5-smbold, .h6-smbold, .text-smbold, .text-small-smbold, .caption-smbold{
+    font-weight: 600;
+}
+
+.h1-regular, .h1-smbold{
+    font-size: 3rem;
+}
+.h2-regular, .h2-smbold{
+    font-size: 2.5rem;
+}
+.h3-regular, .h3-smbold{
+    font-size: 2.062rem;
+}
+.h4-regular, .h4-smbold{
+    font-size: 1.750rem;
+}
+.h5-regular, .h5-smbold{
+    font-size: 1.438rem;
+}
+.h6-regular, .h6-smbold{
+    font-size: 1.188rem;
+}
+
+.text-regular, .text-smbold{
+    font-size: 1rem;
+}
+.text-small-regular, .text-small-smbold{
+    font-size: 0.812rem;
+}
+
+.caption-regular, .caption-smbold{
+    font-size: 0.688rem;
+}
+
+/* headings set */
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Colores */
+
+:root{
+
+    /* amarillo */
+
+    --color-yellow-1: #FEFAE8;
+    --color-yellow-2: #FCF2C7;
+    --color-yellow-3: #FAE89A;
+    --color-yellow-4: #F7DD6C;
+    --color-yellow-5: #F5D33F;
+    --color-yellow-6-normal: #F3C915;
+    --color-yellow-7: #CFAB12;
+    --color-yellow-8: #AD8F0F;
+    --color-yellow-9: #8B730C;
+    --color-yellow-10: #6D5A09;
+
+    /* azul */
+
+    --color-blue-1: #E8F6FF;
+    --color-blue-2: #C8E8FE;
+    --color-blue-3: #9CD6FD;
+    --color-blue-4: #6DC3FC;
+    --color-blue-5: #42B1FC;
+    --color-blue-6-normal: #18A0FB;
+    --color-blue-7: #1488D5;
+    --color-blue-8: #1172B2;
+    --color-blue-9: #0E5B8F;
+    --color-blue-10: #0B4871;
+
+    /* neutros */
+
+    --neutrals-grey-1: #FFFFFF;
+    --neutrals-grey-4: #F2F2F2;
+    --neutrals-grey-5-enable: #DDDDDD;
+    --neutrals-grey-6: #C7C7C7;
+    --neutrals-grey-7: #9A9A9A;
+    --neutrals-grey-8: #6D6D6D;
+    --neutrals-grey-9: #5B5B5B;
+    --neutrals-grey-10: #404040;
+    --neutrals-grey-11: #393939;
+    --neutrals-grey-12: #303030;
+    --neutrals-grey-13: #1E1E1E;
+
+}
+
+/* Espaciado */
+
+:root{
+    --sections: 170px;
+    --titulo-contenido: 73px;
+}
+
+/* Generales */
+
+.first-section{
+    padding-top: 255px;
+}
