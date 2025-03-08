@@ -99,6 +99,39 @@ p{
 		font-size: 0.602rem;
 	}
 
+
+}
+
+@media screen and (max-width:465px) {
+    .h1-regular, .h1-smbold{
+    	font-size: 2.132rem;
+	}
+	.h2-regular, .h2-smbold{
+		font-size: 1.777rem;
+	}
+	.h3-regular, .h3-smbold{
+		font-size: 1.4624rem;
+	}
+	.h4-regular, .h4-smbold{
+		font-size: 1.24rem;
+	}
+	.h5-regular, .h5-smbold{
+		font-size: 1.25rem;
+	}
+	.h6-regular, .h6-smbold{
+		font-size: 1.015rem;
+	}
+
+	.text-regular, .text-smbold{
+		font-size: 0.8125rem;
+	}
+	.text-small-regular, .text-small-smbold{
+		font-size: 0.577rem;
+	}
+
+	.caption-regular, .caption-smbold{
+		font-size: 0.489rem;
+	}
 }
 
 /* headings set */
